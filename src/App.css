@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    overflow-x: hidden;
+    background:#EEDBD1;
+    min-height:100vh;
+    min-width:100vw;
+    font-family: system-ui,sans-serif;
+}

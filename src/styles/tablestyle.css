@@ -1,0 +1,46 @@
+.tableHeader{
+  display:flex;  
+  font-size:1.5rem;
+}
+
+
+.tableHeader table{
+  width:90%;
+  table-layout: fixed;
+  margin: 3rem 0 0 3rem;
+}
+
+
+.tableHeader table th{
+  margin-left:1.5rem;
+  color:chocolate;
+  border-right:2px solid #888;
+}
+
+
+.tableBody,.subjectFormBody{
+  font-size:1.1rem;
+  border-top:1px solid #888;
+  display:grid;
+  grid-template-columns: 20rem 24rem 10rem 25rem 25rem;
+}
+
+.date,.inputDate{
+  margin-left:1.2rem;
+}
+
+
+.confidence{
+  margin-top:0.25rem;
+}
+
+.subjectFormBody{
+  padding:0.25rem;
+}
+
+.buttonStyle{
+  background:cornflowerblue;
+  padding:0.5rem;
+  font-size:1.1rem;
+  border-radius:10px;
+}
